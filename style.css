@@ -1,0 +1,10 @@
+html {
+  background-image: url(imgs/Hobbit-Hole-landing-page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+form {
+height: 1000px;
+}

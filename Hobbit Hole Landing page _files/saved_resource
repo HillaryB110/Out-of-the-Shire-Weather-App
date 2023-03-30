@@ -1,0 +1,241 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+/* FIX FOOTER STUFF */
+.footer_bar {
+	/* margin-top: 100px; */
+}
+
+.footer_bar_wrapper {
+	border: 0px none;
+}
+
+#footer ul.wp-block-social-links li a {
+	color: #FFF;
+}
+
+.single_gallery .page_tagline {
+	display: none;
+}
+
+/* FIX RANDOM STYLES
+hr.small {
+	border: 0px none;
+}
+
+.blog_recent_link {
+	margin-top: 0px;
+}
+
+.post p a {
+	text-decoration: underline;
+}
+
+.wc-block-grid__product .wc-block-grid__product-image, .wc-block-grid__product .wc-block-grid__product-title {
+	text-transform: uppercase;
+}
+/* .ppb_blog_minimal {
+	height: 350px;
+	float: none;
+} */
+
+.blog_grid_content {
+	text-align: center;
+}
+
+.post_header .kt-inside-inner-col p {
+	text-align: center;
+}
+
+.variations .value select {
+	border: 1px solid;
+}
+
+.woocommerce-variation-price {
+	text-align: right;
+	padding-right: 20%;
+}
+
+.woocommerce-variation-add-to-cart {
+	float: right;
+	padding-right: 20%;
+}
+
+.product_meta {
+	text-align: right;
+	padding-right: 20%;
+}
+
+/* FIX SOME SHOPPY STUFF */
+#page_content_wrapper td .variation dt, .page_content_wrapper td .variation dt {
+	font-weight:bold;
+}
+
+#page_content_wrapper td dl dd p, .page_content_wrapper td dl dd p {
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.woocommerce-variation-price span.woocommerce-Price-amount.amount::before {
+    content: 'PRICE: ';
+}
+
+.woocommerce-variation-add-to-cart .quantity::before {
+    content: 'QTY: ';
+}
+
+.woocommerce-product-details__short-description {
+	padding-right: 20%;
+}
+
+.overlay_gallery_border {
+	padding: 30px 30px 15px 30px;
+}
+
+#page_content_wrapper .sidebar_widget .posts.blog li a {
+	font-size: 85%;
+	text-transform: capitalize;
+	line-height: 1em;
+}
+
+#page_content_wrapper .sidebar_widget .posts.blog li .post_attribute {
+	font-size: 85%;
+}
+
+#page_content_wrapper .sidebar_widget .posts.blog .post_circle_thumb {
+	margin-right: 8px;
+}
+
+#page_content_wrapper .sidebar_widget .posts.blog .post_circle_thumb a img {
+	width: 90px;
+}
+
+.category-85 #page_caption, .category-3 #page_caption, .category-91 #page_caption, .category-88 #page_caption {
+	max-width: 100%;
+	margin: 0px 0px 40px 0px;
+	width: 100%;
+	height: 200px;
+	background: url(https://lizzydavis.com/wp-content/uploads/2021/05/DSC_8842-e1620744159187.jpg) no-repeat fixed center bottom transparent;
+	background-size: cover;
+}
+
+.category-97 #page_caption {
+	max-width: 100%;
+	margin: 0px 0px 40px 0px;
+	width: 100%;
+	height: 450px;
+	background: url(
+https://lizzydavis.com/wp-content/uploads/2021/06/explore-caribbean-barbados.jpg) no-repeat fixed center top transparent;
+	background-size: contain;
+}
+
+.category-98 #page_caption {
+	max-width: 100%;
+	margin: 0px 0px 40px 0px;
+	width: 100%;
+	height: 450px;
+	background: url(
+https://lizzydavis.com/wp-content/uploads/2021/06/explore-new-zealand-north-island.jpg) no-repeat fixed center top transparent;
+	background-size: contain;
+}
+
+
+.category-100 #page_caption {
+	max-width: 100%;
+	margin: 0px 0px 40px 0px;
+	width: 100%;
+	height: 450px;
+	background: url(
+https://lizzydavis.com/wp-content/uploads/2021/06/explore-us-florida.jpg) no-repeat fixed center top transparent;
+	background-size: contain;
+}
+
+
+
+
+.category-97 #page_caption .page_title_wrapper, .category-98 #page_caption .page_title_wrapper, .category-100 #page_caption .page_title_wrapper {
+		display: none;
+}
+
+
+.category #page_caption .page_title_wrapper, .tag #page_caption .page_title_wrapper {
+	background: #fff;
+    width: 550px;
+    text-align: center;
+    margin: 40px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    opacity: 0;
+    animation-name: slideUp2;
+    -webkit-animation-name: slideUp2;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.category #page_caption .page_title_wrapper .page_title_inner, .tag #page_caption .page_title_wrapper .page_title_inner {
+	padding: 30px 0px;
+	border: 1px solid #000;
+}
+
+.category #page_caption h1, .tag #page_caption h1 {
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.6;
+}
+
+.hp-button {
+	  text-align: center;
+    margin: -25px auto 0px auto;
+    position: relative;
+    max-width: 85%;
+    background-color: #000;
+    font-size: 18px;
+    color: #FFF;
+    border: 1px solid #fff;
+}
+
+.hp-button a {
+	color: #FFF;
+}
+
+#page_content_wrapper p.hp-button, .page_content_wrapper p.hp-button {
+	padding-top: .9em;
+}
+
+#page_content_wrapper .inner .sidebar_content ul, .page_content_wrapper .inner .sidebar_content ul {
+	margin-left: 0px;
+}
+
+figcaption {
+	  text-align: center;
+    font-size: small;
+}
+
+
+/* INLINE POPULAR POSTS  */
+.wp-block-kadence-rowlayout .popular-posts .wpp-list li {
+	float: left;
+	clear: none;
+	padding: 2rem 0;
+	width: 33%;
+}
+
+.wp-block-kadence-posts.kb-posts-style-unboxed .post.type-post:last-child {
+	margin-bottom: 50px;
+}
+
+.wp-block-kadence-posts .loop-entry {
+	border: 0px none;
+}
