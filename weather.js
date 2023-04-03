@@ -36,7 +36,7 @@ form.addEventListener("submit", (event) => {
       cwTitle.innerText = `${cityName} - ${date}`;
 
       weatherListElements.forEach((element) => element.remove());
-      
+
       for (let i = 0; i < results.list.length; i++) {
         currentTemp = results.list[i].main.temp.toFixed();
         weatherDesc = results.list[i].weather[0].description;
@@ -53,19 +53,25 @@ form.addEventListener("submit", (event) => {
         cwTitle.innerText = `${cityName} - ${date}`;
         cwTitle.append(".c");
 
-       
-
         let li = document.createElement("li");
         li.innerText = `${time}, Current Temp: ${currentTemp}${tempUnitSymbol}, Weather Description: ${weatherDesc}`;
 
         document.querySelector("ul").append(li);
 
         weatherListElements.push(li);
-         if (hour[0] >= 23) {
-        
+        if (hour[0] >= 23) {
           break;
         }
       }
+       let pwPlaceholder = document.querySelector(".pw-placeholder");
+if (pwPlaceholder) {
+    pwPlaceholder.remove();
+}
+      let pastSearch = document.createElement("li");
+     
+      pastSearch.innerText = `${cityName} - ${currentTemp}${tempUnitSymbol}`;
+
+      document.querySelector(".search-history").prepend(pastSearch);
     })
     .catch((error) => {});
 });

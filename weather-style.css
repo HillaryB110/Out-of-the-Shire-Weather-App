@@ -101,7 +101,7 @@ main {
   border-color: #a88d2c;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  font-family: "MiddleEarthMap";
+  font-family: "MiddleEarthMap", "HobbitonBrushhand";
   font-size: small;
   font-style: bold;
   background-image: url(imgs/old-brown-vintage-parchment-paper-texture.jpg);
@@ -116,30 +116,7 @@ main {
     font-size: medium
 }
 
-/* .today {
-  display: grid;
-  text-align: center;
-  border-right: solid;
-  border-width: 1px;
-  border-color: rgb(47, 20, 123);
-  background-image: url(imgs/burlaptexture.jpg);
-  background-size: cover;
-} */
-/* .tmmr {
-  display: grid;
-  text-align: center;
-  border-right: solid;
-  border-width: 1px;
-  border-color: rgb(47, 20, 123);
-  background-color: rgb(165, 206, 242);
-}
-.day-after {
-  display: grid;
-  text-align: center;
-  border-width: 1px;
-  border-color: rgb(47, 20, 123);
-  background-color: rgb(137, 191, 238);
-} */
+
 .weather-history2 {
   text-align: center;
   margin-left: 15px;
@@ -149,6 +126,11 @@ main {
   background-image: url(imgs/old-brown-vintage-parchment-paper-texture.jpg);
   background-size: cover;
   border: solid 3px #a88d2c;
+}
+
+.pw-placeholder {
+list-style: none;
+
 }
 /* .hidden {
   display: none;

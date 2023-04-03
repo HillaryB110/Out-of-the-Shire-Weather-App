@@ -17,14 +17,14 @@
                 <h1 class="app-title">Out of the Shire</h1>
                 <div class="searchbar">
                     <label for="search" class="location-label">Pick a Location</label>
-                    <input class="title" type="text" id="userInput" placeholder="New York City">
+                    <input class="title" type="text" id="userInput" placeholder="New York City" required>
                     <input class="title" value="Get Weather" type="submit">
                 </div>
                 <div class="view-selector">
-                    <label for="view-menu" class="view-choice">Choose View</label>
+                    <label for="view-menu" class="view-choice"> Choose View</label>
                     <select name="view-menu" id="view-menu">
                         <option value="daily" selected>Daily</option>
-                        <option value="4-day">5-Day</option>
+                        <option disabled value="4-day">5-Day</option>
                     </select>
 
                 </div>
@@ -71,7 +71,7 @@
                     <h4>Previous Searches</h4>
                     <sidebar>
                         <ul class="search-history"></ul>
-                        <p class="pw-placeholder">No previous searches.</p>
+                        <li class="pw-placeholder">No previous searches.</li>
                     </sidebar>
                 </aside>
             </div>
