@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather-style.css">
+    <script defer src="weather.js"></script>
+    <title>Out of the Shire Weather App</title>
+</head>
+
+<body>
+    <header>
+        <form>
+            <div class="location-selector">
+                <h1 class="app-title">Out of the Shire</h1>
+                <div class="searchbar">
+                    <label for="search" class="location-label">Pick a Location</label>
+                    <input class="title" type="text" id="userInput" placeholder="New York City">
+                    <input class="title" value="Get Weather" type="submit">
+                </div>
+                <div class="view-selector">
+                    <label for="view-menu" class="view-choice">Choose View</label>
+                    <select name="view-menu" id="view-menu">
+                        <option value="daily" selected>Daily</option>
+                        <option value="4-day">5-Day</option>
+                    </select>
+
+                </div>
+                <div class="temp-coverter">
+                    <label class="celsius">ºC<input type="radio" id="metric" name="unit-selector" /></label>
+                    <label class="fahrenheit">ºF<input type="radio" id="imperial" name="unit-selector"
+                            checked="checked" /></label>
+                    
+                </div>
+            </div>
+        </form>
+    </header>
+    <div class="main-container">
+
+
+
+        <div class="relevant-weather">
+            <main>
+                <div class="current-weather1">
+
+                    <article class="current-weather2">
+                        <p class="cw-placeholder">Choose a location to view the weather.</p>
+                        <ul class="cw-hourly"></ul>
+
+                    </article>
+                </div>
+
+                <!-- <aside class="upcoming-weather hidden" id="future-weather">
+                    <article class="today hidden">
+                        <label class="forecast-heading hidden">Morning</label>
+
+                        <p class="today-avg"></p>
+                        <p class="today-max"></p>
+                        <p class="today-min"></p>
+                    </article>
+
+                </aside> -->
+
+            </main>
+
+            <div class="weather-history1">
+                <aside class="weather-history2">
+                    <section class="weather-history3"></section>
+                    <h4>Previous Searches</h4>
+                    <sidebar>
+                        <ul class="search-history"></ul>
+                        <p class="pw-placeholder">No previous searches.</p>
+                    </sidebar>
+                </aside>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "MiddleEarthMap";
+  src: url("./fonts/MiddleEarthMap.ttf");
+}
+@font-face {
+  font-family: "HobbitonBrushhand";
+  src: url("./fonts/HobbitonBrushhand.ttf");
+}
+
+/* html {
+  background-image: url(imgs/Hobbit-Hole-landing-page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+} */
+form {
+  height: 1000px;
+}
+figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+.quote-Gandalf {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: #fee31a;
+  font-family: "MiddleEarthMap", sans-serif;
+  font-size: x-large;
+  text-shadow: 0 0 3px #9a7824b9, 0 0 5px #ae8c00;
+  background-color: hsla(0, 0%, 0%, 0.25);
+}
+.blurred-bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(imgs/HobbitLivingRoom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  position: fixed;
+  filter: blur(10px);
+  z-index: 0;
+}
+#hobbit-entrance {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(imgs/HobbitLivingRoom.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+  background-position: top center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.entrance-porthole {
+  height: 245px;
+  width: 245px;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  margin-left: 8px;
+  transform: translateX(-50%);
+  color: #433207;
+  border: solid 3px #fee31a9b;
+  box-shadow: 0 0 25px #ffe101;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  font-family: "HobbitonBrushhand";
+  font-size: large;
+  
+}
