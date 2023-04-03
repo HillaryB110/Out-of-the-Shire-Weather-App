@@ -11,8 +11,13 @@
 
 ### Daily View
 
-<p>The Daily view allows users to get a detailed view of the day, in order to see hourly weather data to </p>
+<p><em>The Daily View</em> allows users to get a detailed view of the day relative to when they search, in order to see hourly weather data to  determined the best time to step out into the world. </p>
 
-### 5 Day View 
+<p> Users first enter their city into the location selector and select their prefered unit. <strong>Please note that this feature is defaulted to Fahrenheit.</strong></p>
 
+<p> Users are also able to maintain a record of their search history utilizing the Previous searches Side bar which stores the city names and current temperature </p>
+
+### 5-Day View
+
+<p> To be implemented at a later date</p>
 
